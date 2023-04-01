@@ -1,0 +1,63 @@
+// variables
+$text-bold: bold;
+$gray-color: hsl(219, 14%, 63%);
+$blue-color: hsl(219, 85%, 26%);
+
+// each notification main style
+.notification {
+    height: auto;
+    display: flex;
+    border-radius: 10px;
+    cursor: pointer;
+
+    .profile-image {
+        width: 2em;
+        margin: 10px;
+    }
+
+    // every text
+    .content {
+        margin: auto 0;
+
+        .profile-name {
+            font-weight: $text-bold;
+            color: hsl(224, 21%, 14%);
+        }
+
+        .whatdid {
+            color: hsl(0, 0%, 15%);
+        }
+
+        .wheredid {
+            font-weight: $text-bold;
+            color: $gray-color;
+        }
+
+        .notification-on {
+            font-weight: $text-bold;
+            color: $blue-color;
+        }
+
+        // this div changes when it is visible (inline-block) or invisible (none) based on actived/disactived states
+        .visible::after {
+            content: "";
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: rgb(255, 111, 0);
+            margin-left: 1px;
+        }
+
+        .timedid {
+            color: $gray-color;
+        }
+
+    }
+
+    span {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+
+}
