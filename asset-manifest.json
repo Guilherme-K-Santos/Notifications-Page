@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Notifications-Page/static/css/main.11f76544.css",
+    "main.js": "/Notifications-Page/static/js/main.213a6b6e.js",
+    "static/media/PlusJakartaSans-VariableFont_wght.ttf": "/Notifications-Page/static/media/PlusJakartaSans-VariableFont_wght.a746d1fa53faf338bb5f.ttf",
+    "index.html": "/Notifications-Page/index.html",
+    "main.11f76544.css.map": "/Notifications-Page/static/css/main.11f76544.css.map",
+    "main.213a6b6e.js.map": "/Notifications-Page/static/js/main.213a6b6e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11f76544.css",
+    "static/js/main.213a6b6e.js"
+  ]
+}
